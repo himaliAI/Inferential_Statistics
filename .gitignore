@@ -1,0 +1,31 @@
+# Data files
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.h5
+*.feather
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Folders
+datasets/
+
+# Files
+rough.py
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
