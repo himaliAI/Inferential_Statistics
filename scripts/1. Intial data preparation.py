@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-from scipy.stats import chi2_contingency
-from scipy.stats import norm
 
 df = pd.read_csv("D:/IDA/data/adult.csv")
 
