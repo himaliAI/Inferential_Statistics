@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import ttest_ind
+from scipy.stats import levene
 
 df = pd.read_csv("D:/IDA/data/adult.csv")
 
@@ -27,7 +28,6 @@ print(f"P-value: {p_value:.4f}")
     # with Levene's test
 
 # Test of equality of variance with levene's test
-from scipy.stats import levene
 levene, p_levene = levene(male_hours, female_hours)
 print(f"\nLevene's test: {levene:.4f}")
 print(f"P-value: {p_levene:.4f}")
